@@ -9,7 +9,7 @@ var quotes = [
   'Definiteness of purpose is the starting point of all achievement. –W. Clement Stone',
   'Life isn\'t about getting and having, it\'s about giving and being. –Kevin Kruse',
   'Life is what happens to you while you\’re busy making other plans. –John Lennon',
-  'We become what we think about. –Earl Nightingale',
+  'We become what we think about. –Earl Nightingale'
 
   ]
 
