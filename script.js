@@ -1,5 +1,5 @@
 const fetchData = () => {
-    fetch("https://api.kanye.rest/")
+    fetch("https://script.google.com/macros/s/AKfycbwnTDdba6QxrNVwSOWKDGK3j_dxjPwv0bQu9mfpJYvpAP3GK-p635mAhoR289rgPIP3jQ/exec/")
         .then(response => response.json())
         .then(data => displayQuote(data))
 }
