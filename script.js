@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
         "Quote 1",
         "Quote 2",
         "Quote 3",
-        "Life is 10% what happens to you and 90% how you react to it. - Charles R. Swindoll",
         "Change your thoughts, and you change your world.- Norman Vincent Peale",
         // Add more quotes here
     ];
