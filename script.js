@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
         "Quote 2",
         "Quote 3",
         "Change your thoughts and you change your world.- Norman Vincent Peale",
+        "Success is a journey not a destination. - Ben Sweetland",
+        "It always seems impossible until it's done. - Nelson Mandela",
         // Add more quotes here
     ];
     const quoteElement = document.getElementById("quote");
