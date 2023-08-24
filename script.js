@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
         "Quote 3",
         // Add more quotes here
     ];
-
     const quoteElement = document.getElementById("quote");
     const generateButton = document.getElementById("generate-btn");
 
