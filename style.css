@@ -1,46 +1,63 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Potta+One&display=swap");
-
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100%;
 }
 
-body {
-  background: #171717;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+main {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url("../images/quote-bg1.png") no-repeat;
+    background-size: cover;
+    min-height: calc(100vh - 30px);
+    display: flex;
+    flex-direction: column;
 }
 
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: #262626;
-  text-align: center;
-  padding: 30px;
-  width: 30rem;
-  margin: 10rem;
-  border-radius: 10px;
+.title {
+    font-size: 1.8rem;
+    padding-top: 20vh;
+    text-align: center;
+    color: white;
+}
+
+.button-center {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#btn-generate {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    background-color: #01323e;
 }
 
 #quote {
-  height: 6rem;
-  margin-top: 20px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid #01323e;
+    padding: 4px 5px;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
 }
 
-.generateBtn {
-  height: 50px;
-  width: 50px;
-  margin-top: 10px;
-  border-radius: 50%;
-  border: none;
-  background: deepskyblue;
-  color: white;
-  cursor: pointer;
-  font-size: 15px;
+footer {
+    margin-top: auto;
+    background-color: #011f25;
+}
+
+footer p {
+    padding-top: 5px;
+    height: 25px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #5889c2;
 }
