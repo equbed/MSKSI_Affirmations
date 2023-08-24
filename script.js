@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const quotes = [
         "Success is liking yourself, liking what you do, and liking how you do it. - Maya Angelou",
         "Aim for the moon. If you miss, you may hit a star. - W. Clement Stone",
-        "If you cannot do great things, do small things in a great way. - Napoleon Hill:,
+        "If you cannot do great things, do small things in a great way. - Napoleon Hill",
         "Success only comes to those who dare to attempt. - Mallika Tripathi",
         "I never dreamed about success. I worked for it. - Estée Lauder",
         "If opportunity doesn't knock, build a door. - Milton Berle",
