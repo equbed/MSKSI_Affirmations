@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
+        background-image: url("images/quote-bg1.png");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@ body {
 }
 
 #generate-btn {
-    background-image: url("images/quote-bg1.png");
+    background-color: #007bff;
     color: #fff;
     border: none;
     padding: 10px 20px;
