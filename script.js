@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+const quoteElement = document.getElementById("quote");
    const quotes = [    
       "Affirmations/1.gif",
       "Affirmations/2.gif",
